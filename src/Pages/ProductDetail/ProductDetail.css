@@ -1,0 +1,150 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.product-detail-page {
+  padding: 40px 7vw;
+  background-color: #fff;
+  font-family: 'Inter', sans-serif;
+  min-height: calc(100vh - 120px);
+}
+
+.product-detail-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+.product-detail-header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.product-detail-content {
+  display: flex;
+  gap: 70px;
+  margin-top: 5px;
+}
+
+.product-detail-image {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-detail-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  object-fit: cover;
+}
+
+.product-detail-info {
+  flex: 1.2;
+}
+
+.product-detail-info h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.product-detail-info h3 {
+  font-size: 1.4rem;
+  color: #2a5298;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 8px;
+}
+
+.product-detail-info p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+.features-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 1.05rem;
+  color: #555;
+}
+
+.features-list li {
+  margin-bottom: 8px;
+}
+
+.specs-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+.specs-table td {
+  padding: 12px;
+  border: 1px solid #e9e9e9;
+  font-size: 1rem;
+}
+
+.specs-table tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.specs-table td:first-child {
+  font-weight: 600;
+  color: #333;
+  width: 40%;
+}
+
+.back-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.back-button:hover {
+  background-color: #e0e0e0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.not-found {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.not-found h2 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.not-found p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+  .product-detail-content {
+    flex-direction: column;
+  }
+  .product-detail-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
