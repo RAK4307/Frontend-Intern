@@ -48,10 +48,11 @@ JS-Infotech-Website/
 ---
 
 ## 📸 Preview
+Home Page 
 <img width="1877" height="891" alt="Screenshot 2025-07-31 220034" src="https://github.com/user-attachments/assets/d9e2df6f-42f3-4f3b-b230-8e7137c0e1bd" />
-
+Services section(Home Page)
 <img width="1783" height="874" alt="Screenshot 2025-07-31 220131" src="https://github.com/user-attachments/assets/be28277a-8007-40a6-8827-72f0af2e91e2" />
-
+Footer
 <img width="1866" height="883" alt="Screenshot 2025-07-31 220142" src="https://github.com/user-attachments/assets/1339f98c-b4d7-415f-aefe-66c138d32549" />
 
 ---
