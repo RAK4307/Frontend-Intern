@@ -3,7 +3,7 @@
 This is the official website for **JS Infotech Pvt. Ltd.**, a service-based company specializing in electrical engineering, automation, and IT solutions. The site is built using **React.js** and **CSS**, and designed to showcase their services, products, industrial experience, and client collaborations.
 
 ## 🔗 Live Site
-👉 [https://js-infotech.netlify.app](https://hated.netlify.app)
+👉 [https://js-infotech.netlify.app](https://js-infotech.netlify.app/)
 
 ---
 
